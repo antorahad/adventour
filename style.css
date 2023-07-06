@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    
+}
+
+
+/*Customized variables*/
+:root{
+    --bg-dark: #000000;
+    --bg-white: #ffffff;
+}
+
