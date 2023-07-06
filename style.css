@@ -1,3 +1,5 @@
+/*Google font link*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -9,7 +11,7 @@ html{
 }
 
 body{
-    
+    font-family: var(--primary-font);
 }
 
 
@@ -17,5 +19,63 @@ body{
 :root{
     --bg-dark: #000000;
     --bg-white: #ffffff;
+    --bg-violet: #8a2be2;
+    --bg-ldark: #2B2730;
+    --primary-font: 'Poppins', sans-serif;
 }
+
+/*Header*/
+.header_wrapper .navbar{
+    background-color: var(--bg-white);
+    padding: 12px 20px;
+}
+
+.header_wrapper .navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--bg-ldark);
+}
+
+.header_wrapper .navbar .navbar-brand span{
+    color: var(--bg-violet);
+}
+
+.header_wrapper .navbar .navbar-nav .nav-item.dropdown .dropdown-menu.drop-menu{
+    margin-top: 14px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-width: 2px 0px 0px 0px;
+    border-style: solid;
+    border-color: var(--bg-violet);
+    border-radius: 0px;
+}
+
+.header_wrapper .navbar .navbar-nav .nav-item.dropdown .dropdown-menu.drop-menu .dropdown-item{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--bg-ldark);
+}
+
+.header_wrapper .navbar .navbar-nav .nav-item.dropdown .dropdown-menu.drop-menu .dropdown-item:hover{
+    background-color: var(--bg-violet);
+    color: var(--bg-white);
+}
+
+.header_wrapper .navbar .navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--bg-ldark);
+}
+
+.header_wrapper .navbar .navbar-nav .nav-item .nav-link.active{
+    color: var(--bg-violet);
+}
+
+.header_wrapper .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: var(--bg-violet);
+}
+
+
 
